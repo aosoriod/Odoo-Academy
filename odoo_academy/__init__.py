@@ -1,1 +1,3 @@
-# -*- coding: "utf8" -*-
+# -*- coding: utf8 -*-
+
+from . import models

@@ -11,6 +11,7 @@
     ''',
     'author': 'Odoo',
     'website': 'https://www.odoo.com',
+    'license': 'LGPL-3',
     'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
