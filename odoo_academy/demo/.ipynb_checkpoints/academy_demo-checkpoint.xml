@@ -9,12 +9,8 @@
     
         <record model="academy.course" id="accounting_200">
             <field name="name">Accounting 200</field>
-            <field name="description">
-            Accounting 200:
-            Intermediate Accountiing Course
-            Learning about Cost Accounting and pricing and Reverze Analysis
-            </field>
-            <field name="level">Intermediate</field>
+            <field name="description">Accounting 200</field>
+            <field name="level">intermediate</field>
         </record>
         
         <record model="academy.course" id="website_500">
