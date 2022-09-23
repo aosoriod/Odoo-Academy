@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record model="ir.ul.view" id="course_view_form">
+        <record model="ir.ui.view" id="course_view_form">
             <field name="name">academy.course.form</field>
             <field name="model">academy.course</field>
             <field name="arch" type="xml">
-                <form string="Course form">
+                <form string="Course Form">
                     <sheet>
                         <h1><field name="name"/></h1>
                         <group>
@@ -19,15 +19,16 @@
                         <notebook>
                             <page string="Description">
                                 <field name="description"/>
-                            </page>                        
+                            </page>
                         </notebook>
                     </sheet>
                 </form>
-            </field>        
-        </record>    
+            </field>
+        </record>
+
         <record model="ir.ui.view" id="course_view_list">
             <field name="name">academy.course.list</field>
-            <field name="model">academy.course</field> 
+            <field name="model">academy.course</field>
             <field name="arch" type="xml">
                 <tree string="Course List">
                     <field name="name"/>
@@ -36,10 +37,10 @@
                 </tree>
             </field>
         </record>
-        
+
         <record model="ir.ui.view" id="course_view_search">
             <field name="name">academy.course.search</field>
-            <field name="model">academy.course</field> 
+            <field name="model">academy.course</field>
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
@@ -47,5 +48,6 @@
                 </search>
             </field>
         </record>
-    </data>    
-</odoo>
+
+    </data>
+</odoo> 
