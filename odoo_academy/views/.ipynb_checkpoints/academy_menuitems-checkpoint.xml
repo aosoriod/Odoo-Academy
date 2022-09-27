@@ -30,7 +30,7 @@
         <menuitem id="menu_academy_sub" name="Odoo Academy" parent="menu_academy" sequence="2"/>
         <menuitem id="menu_academy_courses" name="Courses" parent="menu_academy_sub" sequence="3"
                   action="course_list_action"/>    
-        <menuitem id="menu_academy_session" name="Session" parent="menu_academy" sequence="4"
+        <menuitem id="menu_academy_session" name="Session" parent="menu_academy_sub" sequence="4"
                   action="session_list_action"/>
     </data>
 </odoo>
