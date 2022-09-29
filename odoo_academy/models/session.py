@@ -42,7 +42,7 @@ class Session(models.Model):
     def _inverse_end_date(self):
         for record in self:
             if record.start_date and record.end_date:
-                record.duration = (record.end_date + record.start_date).days + 1
+                record.duration = (record.end_date - record.start_date).days + 1
             
             else:
                 continue
